@@ -1,6 +1,9 @@
 #
 require 'pry'
 
+"fido"= Dog.new("fido")
+"kiko"= Dog.new("keeks")
+
 class Dog
 attr_reader :name
 @@all = []
@@ -20,7 +23,5 @@ attr_reader :name
       puts name
     end
   end
-
-
 
 end
