@@ -1,5 +1,6 @@
 #
-require 'pry'
+require 'Pry'
+
 class Dog
 attr_reader :name
 @@all = []
