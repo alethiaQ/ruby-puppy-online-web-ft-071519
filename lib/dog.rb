@@ -1,4 +1,5 @@
-# Add your code here
+#
+require 'pry'
 class Dog
 attr_reader :name
 @@all = []
@@ -18,6 +19,6 @@ attr_reader :name
     end
   end
 
-  
+
 
 end
