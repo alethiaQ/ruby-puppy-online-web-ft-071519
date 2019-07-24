@@ -23,6 +23,6 @@ attr_reader :name
 
 
   def self.clear_all
-    @@all.clear 
+    @@all.clear
   end
 end
