@@ -1,8 +1,7 @@
 #
 require 'pry'
-
-"fido"= Dog.new("fido")
-"kiko"= Dog.new("keeks")
+fido = Dog.new("fido")
+kiko = Dog.new("keeks")
 
 class Dog
 attr_reader :name
