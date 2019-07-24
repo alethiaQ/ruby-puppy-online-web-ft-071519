@@ -17,7 +17,7 @@ attr_reader :name
 
   def self.print_all
     @@all.each do |name|
-      puts name
+      puts name.name
     end
   end
 
